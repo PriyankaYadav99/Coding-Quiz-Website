@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-image: url("https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
+  background-size: cover;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+h1 {
+  font-family: sans-serif;
+}
+
+/* //Java button */
+.btn1 {
+  background-color: #fff;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  margin-left: 50px;
+}
+
+.btn1:hover {
+  background-color: rgb(100, 97, 97);
+}
+
+/* //Python button */
+.btn2 {
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 15px 15px 15px;
+}
+.btn2:hover {
+  background-color: rgb(100, 97, 97);
+}
+
+/* //Javascript button */
+.btn3 {
+  font-size: 20px;
+  padding: 10px 15px 15px 15px;
+}
+.btn3:hover {
+  background-color: rgb(100, 97, 97);
+}
+
+a {
+  color: #000;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
